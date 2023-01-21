@@ -1,0 +1,15 @@
+Passos para iniciar projeto
+
+
+- criar maquina virtual
+    - instalar virtualenv:
+        comando terminal: pip install virtualenv
+    -criar maquina virtual  
+        comando termnal: py -m venv --without-pip env
+- ativar maquina virtual
+    - Scripts\Activate.ps1
+- power shell - erro:
+    - comando terminal power shell:
+        Set-Execution Policy - Scope CurrentUser-ExecutionPolicy RemoteSigned
+- instalar pacotes
+    - comando terminal: pip install 'nome do pacorte'
